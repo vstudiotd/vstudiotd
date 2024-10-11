@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+}
+
+header {
+    background-color: #007acc; /* Azul vibrante */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #005999; /* Color más oscuro al pasar el mouse */
+}
+
+#publicaciones {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333; /* Fondo de la sección */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: #00ccff; /* Color atractivo para los títulos */
+}
+
+.publicacion {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #444; /* Fondo de cada publicación */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.publicacion h3 {
+    margin-top: 0;
+    color: #00ccff; /* Color de los títulos de publicación */
+}
+
+.fecha-publicacion {
+    font-size: 0.9em;
+    color: #cccccc; /* Color para la fecha */
+    margin-bottom: 10px;
+}
+
+.imagen-publicacion {
+    width: 100%; /* Ajuste la imagen al 100% del contenedor */
+    max-width: 300px; /* Tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc; /* Color de fondo del pie de página */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Consultas de medios para dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Tamaño de fuente más pequeño para móviles */
+    }
+
+    nav ul li {
+        display: block; /* Navegación vertical en móviles */
+        margin: 10px 0;
+    }
+
+    #publicaciones {
+        margin: 10px; /* Margen más pequeño en móviles */
+        padding: 15px; /* Padding más pequeño en móviles */
+    }
+
+    .publicacion {
+        padding: 10px; /* Padding más pequeño en publicaciones en móviles */
+    }
+
+    .imagen-publicacion {
+        max-width: 100%; /* Imagen al 100% en móviles */
+    }
+}

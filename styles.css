@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo arcade */
+    line-height: 1.6; /* Mejora la legibilidad */
+    background-color: #1b1b3a; /* Fondo oscuro con un tono azulado */
+    color: #e0e0e0; /* Color del texto claro */
+}
+
+header {
+    background-color: #2e2e55; /* Fondo más claro que el cuerpo */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00; /* Resalta el header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffcc00; /* Color dorado para enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s; /* Efecto de transición */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Cambio de color al pasar el mouse */
+}
+
+.seccion {
+    padding: 40px;
+    margin: 20px auto; /* Centra las secciones */
+    max-width: 800px; /* Limita el ancho máximo para mejorar la legibilidad */
+    background-color: #3a3a7a; /* Fondo oscuro para secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para un efecto de profundidad */
+}
+
+.contenido-sobre-nosotros {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.lista-enfocada {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+    margin: 10px 0; /* Margen entre la lista y otros elementos */
+}
+
+.lista-enfocada li {
+    margin: 10px 0; /* Espacio entre los elementos de la lista */
+    font-size: 1.1em; /* Aumenta ligeramente el tamaño de la fuente */
+    color: #ffcc00; /* Color dorado para los elementos de la lista */
+}
+
+footer {
+    background-color: #2e2e55;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Permite que el footer se mueva con el contenido */
+    bottom: 0; /* Alinea el footer a la parte inferior */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+}
+.imagen-ajustada {
+    max-width: 50%; /* Limita el ancho máximo al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 20px auto; /* Centra la imagen en su contenedor */
+}
